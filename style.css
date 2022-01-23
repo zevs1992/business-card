@@ -7,9 +7,9 @@
 
 
 
-body{
-   margin: 0;
-    background: url('/imge/nature-3082832.jpg');
+body {
+    margin: 0;
+    background: url('imge/nature-3082832.jpg');
     background-repeat: repeat-x;
     background-size: cover;
     width: 100%;
@@ -20,19 +20,21 @@ body{
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-fill-mode: forwards;
-    
+    animation-delay: 3s;
+
 }
 
-@keyframes my-circle{
-    0%{
+@keyframes my-circle {
+    0% {
         background-position: 0;
     }
-    100%{
+
+    100% {
         background-position: 5757px;
     }
 }
 
-.wrepper{
+.wrepper {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -41,20 +43,20 @@ body{
     width: 100%;
 }
 
-.content{
+.content {
     width: 590px;
     height: 300px;
 
 }
 
-header{
+header {
     text-align: center;
     /* width: 1350px; */
     height: 240px;
     margin: 0;
 }
 
-header h1{
+header h1 {
     font-family: 'Roboto_Slab';
     font-size: 4.35em;
     font-weight: 200;
@@ -66,7 +68,7 @@ header h1{
     color: #fff;
 }
 
-header p{
+header p {
     font-family: 'Roboto_Slab';
     font-weight: 500;
     font-size: 1.80em;
@@ -75,21 +77,22 @@ header p{
     color: #fff;
 }
 
-nav{
+nav {
     width: 500px;
     height: 200px;
 
 }
 
-a{
+a {
     width: 50px;
     height: 50px;
 }
-li:hover{
+
+li:hover {
     box-shadow: 0px 5px 20px 7px rgba(191, 191, 191, 1);
 }
 
-li{
+li {
     border: 2px solid black;
     border-radius: 100%;
     padding: 15px;
@@ -98,36 +101,37 @@ li{
     transition-duration: 1s;
 }
 
-ul, li{
+ul,
+li {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
-.insta{
+.insta {
     background: url('./imge/instagram.svg') no-repeat center center / contain;
-    
+
 }
 
-.telega{
+.telega {
     background: url('./imge/telegram.svg') no-repeat center center / contain;
 }
 
-.git{
+.git {
     background: url('./imge/github.svg') no-repeat center center / contain;
 }
 
-.vk{
+.vk {
     background: url('./imge/vk.svg') no-repeat center center / contain;
 }
 
-.gmail{
+.gmail {
     background: url('./imge/email.svg') no-repeat center center / contain;
 }
 
-footer{
+footer {
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -135,5 +139,3 @@ footer{
     color: white;
     margin-top: 100px;
 }
-
-
